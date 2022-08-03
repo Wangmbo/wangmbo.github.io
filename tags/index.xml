@@ -1,7 +1,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Tags - Tag - Wangmbo</title>
+        <title>Tags - Tag - Wangmbo blog</title>
         <link>https://www.wangmbo.com/tags/</link>
-        <description>Tags - Tag - Wangmbo</description>
+        <description>Tags - Tag - Wangmbo blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://www.wangmbo.com/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>
