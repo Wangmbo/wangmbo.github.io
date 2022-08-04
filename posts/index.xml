@@ -1,12 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Wangmbo blog</title>
-        <link>https://www.wangmbo.com/</link>
-        <description>This is my cool site</description>
+        <title>All Posts - Wangmbo blog</title>
+        <link>https://www.wangmbo.com/posts/</link>
+        <description>All Posts | Wangmbo blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wm-wave@163.com (Wangmbo)</managingEditor>
-            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Thu, 04 Aug 2022 23:19:53 &#43;0800</lastBuildDate>
-            <atom:link href="https://www.wangmbo.com/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Thu, 04 Aug 2022 23:19:53 &#43;0800</lastBuildDate><atom:link href="https://www.wangmbo.com/posts/" rel="self" type="application/rss+xml" /><item>
     <title>First_post</title>
     <link>https://www.wangmbo.com/posts/first_post/</link>
     <pubDate>Thu, 04 Aug 2022 23:19:53 &#43;0800</pubDate>

@@ -3,5 +3,6 @@
         <title>Tags - Tag - Wangmbo blog</title>
         <link>https://www.wangmbo.com/tags/</link>
         <description>Tags - Tag - Wangmbo blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://www.wangmbo.com/tags/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wm-wave@163.com (Wangmbo)</managingEditor>
+            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><atom:link href="https://www.wangmbo.com/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>

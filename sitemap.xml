@@ -2,6 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://www.wangmbo.com/posts/first_post/</loc><lastmod>2022-08-04T23:19:53&#43;08:00</lastmod></url><url>
+            <loc>https://www.wangmbo.com/posts/</loc><lastmod>2022-08-04T23:19:53&#43;08:00</lastmod></url><url>
+            <loc>https://www.wangmbo.com/</loc><lastmod>2022-08-04T23:19:53&#43;08:00</lastmod></url><url>
             <loc>https://www.wangmbo.com/categories/</loc></url><url>
-            <loc>https://www.wangmbo.com/tags/</loc></url><url>
-            <loc>https://www.wangmbo.com/</loc></url></urlset>
+            <loc>https://www.wangmbo.com/tags/</loc></url></urlset>
