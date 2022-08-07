@@ -4,15 +4,22 @@
         <link>https://www.wangmbo.com/</link>
         <description>This is my cool site</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wm-wave@163.com (Wangmbo)</managingEditor>
-            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Thu, 04 Aug 2022 23:19:53 &#43;0800</lastBuildDate>
+            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Sun, 07 Aug 2022 16:54:27 &#43;0800</lastBuildDate>
             <atom:link href="https://www.wangmbo.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>First_post</title>
-    <link>https://www.wangmbo.com/posts/first_post/</link>
-    <pubDate>Thu, 04 Aug 2022 23:19:53 &#43;0800</pubDate>
+    <title>20220807-复盘H1</title>
+    <link>https://www.wangmbo.com/posts/20220807-analyse/</link>
+    <pubDate>Sun, 07 Aug 2022 16:54:27 &#43;0800</pubDate>
     <author>Wangmbo</author>
-    <guid>https://www.wangmbo.com/posts/first_post/</guid>
-    <description><![CDATA[测试]]></description>
+    <guid>https://www.wangmbo.com/posts/20220807-analyse/</guid>
+    <description><![CDATA[ 复盘最近几周工作、学习、健身等，主要有两个关键字执行力和专注力
+工作 工作上最近都在做业务需求，个人相对比上个季度来说对业务的理解和需求的把控都有所增强。
+需加强：
+架构能力 =&gt; 分析业务、需求之后，能够产出架构方案设计 工作效率 =&gt; 受执行力和专注力影响，工作效率未达到预期 学习 最大的问题是，学的东西较为零散，也没有将所学的知识进行实际的产出或巩固。
+需加强：
+专注学习某项技术，产出文章/工具/产品 健身 由于拖延症等原因，导致晚上睡得晚，早上的锻炼状态并不好 容易被自己感动，应该加强锻炼强度 需加强：
+早睡，尽量在00:30前开始入睡 加强锻炼强度，严格按照keep组间动作的休息时间 总结 定好目标后，需要加强自己的执行力，在执行的过程中需要提升自己的专注力，这样才能有效率的达成目标。
+如何提升专注力 尽量减少自己多线程做事 分心最大的敌人是自己，逃避困难，缓解和逃避痛感 =》通过冥想去驱赶逃避的想法和行为 ]]></description>
 </item>
 </channel>
 </rss>
