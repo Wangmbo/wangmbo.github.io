@@ -4,5 +4,13 @@
         <link>https://www.wangmbo.com/tags/</link>
         <description>Tags - Tag - Wangmbo blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wm-wave@163.com (Wangmbo)</managingEditor>
-            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><atom:link href="https://www.wangmbo.com/tags/" rel="self" type="application/rss+xml" /></channel>
+            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Thu, 11 Aug 2022 11:51:32 &#43;0800</lastBuildDate><atom:link href="https://www.wangmbo.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Vscode</title>
+    <link>https://www.wangmbo.com/tags/vscode/</link>
+    <pubDate>Thu, 11 Aug 2022 11:51:32 &#43;0800</pubDate>
+    <author>Wangmbo</author>
+    <guid>https://www.wangmbo.com/tags/vscode/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>

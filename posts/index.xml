@@ -4,7 +4,18 @@
         <link>https://www.wangmbo.com/posts/</link>
         <description>All Posts | Wangmbo blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wm-wave@163.com (Wangmbo)</managingEditor>
-            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Sun, 07 Aug 2022 16:54:27 &#43;0800</lastBuildDate><atom:link href="https://www.wangmbo.com/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Thu, 11 Aug 2022 11:51:32 &#43;0800</lastBuildDate><atom:link href="https://www.wangmbo.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Vscode使用笔记</title>
+    <link>https://www.wangmbo.com/posts/vscode%E4%BD%BF%E7%94%A8-note/</link>
+    <pubDate>Thu, 11 Aug 2022 11:51:32 &#43;0800</pubDate>
+    <author>Wangmbo</author>
+    <guid>https://www.wangmbo.com/posts/vscode%E4%BD%BF%E7%94%A8-note/</guid>
+    <description><![CDATA[ 此篇笔记用于记录经常使用的一些Vscode的功能，便于查找使用 和 理解vscode的一些配置项或配置文件。
+智能感知和jsconfig.json 相关 后续完善笔记
+Node.js 调试 自动附加 自动附加
+调试终端 启动配置 ]]></description>
+</item>
+<item>
     <title>20220807-复盘H1</title>
     <link>https://www.wangmbo.com/posts/20220807-analyse/</link>
     <pubDate>Sun, 07 Aug 2022 16:54:27 &#43;0800</pubDate>
