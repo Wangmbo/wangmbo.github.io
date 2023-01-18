@@ -4,18 +4,7 @@
         <link>https://www.wangmbo.com/posts/</link>
         <description>All Posts | Wangmbo blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wm-wave@163.com (Wangmbo)</managingEditor>
-            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Thu, 11 Aug 2022 11:51:32 &#43;0800</lastBuildDate><atom:link href="https://www.wangmbo.com/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Vscode使用笔记</title>
-    <link>https://www.wangmbo.com/posts/vscode%E4%BD%BF%E7%94%A8-note/</link>
-    <pubDate>Thu, 11 Aug 2022 11:51:32 &#43;0800</pubDate>
-    <author>Wangmbo</author>
-    <guid>https://www.wangmbo.com/posts/vscode%E4%BD%BF%E7%94%A8-note/</guid>
-    <description><![CDATA[ 此篇笔记用于记录经常使用的一些Vscode的功能，便于查找使用 和 理解vscode的一些配置项或配置文件。
-智能感知和jsconfig.json 相关 后续完善笔记
-Node.js 调试 自动附加 自动附加
-调试终端 启动配置 ]]></description>
-</item>
-<item>
+            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Sun, 07 Aug 2022 16:54:27 &#43;0800</lastBuildDate><atom:link href="https://www.wangmbo.com/posts/" rel="self" type="application/rss+xml" /><item>
     <title>20220807-复盘H1</title>
     <link>https://www.wangmbo.com/posts/20220807-analyse/</link>
     <pubDate>Sun, 07 Aug 2022 16:54:27 &#43;0800</pubDate>
@@ -29,6 +18,14 @@ Node.js 调试 自动附加 自动附加
 专注学习某项技术，产出文章/工具/产品 健身 由于拖延症等原因，导致晚上睡得晚，早上的锻炼状态并不好 容易被自己感动，应该加强锻炼强度 需加强：
 早睡，尽量在00:30前开始入睡 加强锻炼强度，严格按照keep组间动作的休息时间 总结 定好目标后，需要加强自己的执行力，在执行的过程中需要提升自己的专注力，这样才能有效率的达成目标。
 如何提升专注力 尽量减少自己多线程做事 分心最大的敌人是自己，逃避困难，缓解和逃避痛感 =》通过冥想去驱赶逃避的想法和行为 ]]></description>
+</item>
+<item>
+    <title>计算机组成-结构</title>
+    <link>https://www.wangmbo.com/posts/computer-composition/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E7%BB%93%E6%9E%84/</link>
+    <pubDate>Tue, 13 Aug 2019 11:51:32 &#43;0800</pubDate>
+    <author>Wangmbo</author>
+    <guid>https://www.wangmbo.com/posts/computer-composition/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E7%BB%93%E6%9E%84/</guid>
+    <description><![CDATA[]]></description>
 </item>
 </channel>
 </rss>

@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>note - Category - Wangmbo blog</title>
-        <link>https://www.wangmbo.com/categories/note/</link>
-        <description>note - Category - Wangmbo blog</description>
+        <title>计算机组成 - Tag - Wangmbo blog</title>
+        <link>https://www.wangmbo.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90/</link>
+        <description>计算机组成 - Tag - Wangmbo blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wm-wave@163.com (Wangmbo)</managingEditor>
-            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Tue, 13 Aug 2019 11:51:32 &#43;0800</lastBuildDate><atom:link href="https://www.wangmbo.com/categories/note/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Tue, 13 Aug 2019 11:51:32 &#43;0800</lastBuildDate><atom:link href="https://www.wangmbo.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90/" rel="self" type="application/rss+xml" /><item>
     <title>计算机组成-结构</title>
     <link>https://www.wangmbo.com/posts/computer-composition/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E7%BB%93%E6%9E%84/</link>
     <pubDate>Tue, 13 Aug 2019 11:51:32 &#43;0800</pubDate>
