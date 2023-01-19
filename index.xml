@@ -27,7 +27,7 @@
     <pubDate>Tue, 13 Aug 2019 11:51:32 &#43;0800</pubDate>
     <author>Wangmbo</author>
     <guid>https://www.wangmbo.com/posts/computer-composition/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E7%BB%93%E6%9E%84/</guid>
-    <description><![CDATA[]]></description>
+    <description><![CDATA[什么是计算机？ 计算机硬件的基本组成 CPU 中央处理器，负责计算机中所有的“计算” 内存 撰写的程序都需要加载到内存中才能运行，存放在内存中的程序需要被CPU读取，CPU计算完毕之后，还需要把数据写回到内存中。 主板 主板的芯片组和总线解决了CPU和内存之间如何通行。芯片组控制了数据传输的流转，总线则是数据传输的高速公路。 输入设备 鼠标、键盘 输出设备 显示器 冯诺依曼体系结构 =&gt; 存储程序计算机 存储程序计算机暗含了两个概念： 1. 可编程 2. 可存储 任何一台计算机的任何一个部件都可以归到运算器、控制器、存储器、输入设备和输出设备中，所有现代计算机也都是基于这个基础架构来设计开发的。 ]]></description>
 </item>
 </channel>
 </rss>
