@@ -1,20 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>note - Category - Wangmbo blog</title>
-        <link>https://www.wangmbo.com/categories/note/</link>
-        <description>note - Category - Wangmbo blog</description>
+        <title>webpack - Tag - Wangmbo blog</title>
+        <link>https://www.wangmbo.com/tags/webpack/</link>
+        <description>webpack - Tag - Wangmbo blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wm-wave@163.com (Wangmbo)</managingEditor>
-            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Sat, 14 Jan 2023 09:51:32 &#43;0800</lastBuildDate><atom:link href="https://www.wangmbo.com/categories/note/" rel="self" type="application/rss+xml" /><item>
-    <title>pinia使用手册</title>
-    <link>https://www.wangmbo.com/posts/pinia-use/</link>
-    <pubDate>Sat, 14 Jan 2023 09:51:32 &#43;0800</pubDate>
-    <author>Wangmbo</author>
-    <guid>https://www.wangmbo.com/posts/pinia-use/</guid>
-    <description><![CDATA[前言 Store 是什么 Store是一个保存状态和业务逻辑的实体，它并不与你的组件树绑定，它承载着全局的状态
-什么时候使用Store 一个Store应该包含可以在整个应用中访问的数据，例如显示在导航栏中的用户信息，以及需要通过页面保存的数据，例如一个非常复杂的多步骤表单。应该避免在Store中引入那些本可以在组件中保存的本地数据，例如，一个元素在页面中的可见性。
-使用 创建pinia实例(根store)，然后将其挂载到app上 // mian.ts import { createPinia } from &#39;pinia&#39; const pinia = createPinia() app.use(pinia) 声明store // useTodoList.ts import { defineStore } from &#39;pinia&#39; export const useTodoList = defineStore(&#39;todoList&#39;, { // state // getters // actions }) 使用store import { useTodoList } from &#39;@/store/useTodoList&#39; const todoListStore = useTodoList() 修改state actions中修改 直接修改 $patch $reset 订阅state $subscribe store.$subscribe((mutation, state) =&gt; { }) watch 监听 插件的使用 import { createPinia } from &#39;pinia&#39; // 创建的每个 store 中都会添加一个名为 `secret` 的属性。 // 在安装此插件后，插件可以保存在不同的文件中 function SecretPiniaPlugin() { return { secret: &#39;the cake is a lie&#39; } } const pinia = createPinia() // 将该插件交给 Pinia pinia.]]></description>
-</item>
-<item>
+            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Thu, 25 Aug 2022 09:51:32 &#43;0800</lastBuildDate><atom:link href="https://www.wangmbo.com/tags/webpack/" rel="self" type="application/rss+xml" /><item>
     <title>深入浅出Webpack5模块联邦</title>
     <link>https://www.wangmbo.com/posts/webpack/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAwebpack5%E6%A8%A1%E5%9D%97%E8%81%94%E9%82%A6/</link>
     <pubDate>Thu, 25 Aug 2022 09:51:32 &#43;0800</pubDate>
@@ -33,14 +23,6 @@ exposes exposes表示remote应用有哪些属性、方法和组件需要暴露�
 remote remote 表示当前host应用需要消费的remote应用的以及他的地址，他是一个对象，key为对应remote应用的name值，这里要注意这个name不是remote应用中配置的name，而是自己为该remote应用自定义的值，value这是remote应用的资源地址。
 shared 当前应用无论是作为host还是remote都可以共享依赖，而共享的这些依赖需要通过shared去指定
 参考文档 一文通透讲解webpack5 module federation 最详细的Module Federation的实现原理讲解 ]]></description>
-</item>
-<item>
-    <title>计算机组成-结构</title>
-    <link>https://www.wangmbo.com/posts/computer-composition/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E7%BB%93%E6%9E%84/</link>
-    <pubDate>Tue, 13 Aug 2019 11:51:32 &#43;0800</pubDate>
-    <author>Wangmbo</author>
-    <guid>https://www.wangmbo.com/posts/computer-composition/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E7%BB%93%E6%9E%84/</guid>
-    <description><![CDATA[什么是计算机？ 计算机硬件的基本组成 CPU 中央处理器，负责计算机中所有的“计算” 内存 撰写的程序都需要加载到内存中才能运行，存放在内存中的程序需要被CPU读取，CPU计算完毕之后，还需要把数据写回到内存中。 主板 主板的芯片组和总线解决了CPU和内存之间如何通行。芯片组控制了数据传输的流转，总线则是数据传输的高速公路。 输入设备 鼠标、键盘 输出设备 显示器 冯诺依曼体系结构 =&gt; 存储程序计算机 存储程序计算机暗含了两个概念： 1. 可编程 2. 可存储 任何一台计算机的任何一个部件都可以归到运算器、控制器、存储器、输入设备和输出设备中，所有现代计算机也都是基于这个基础架构来设计开发的。 ]]></description>
 </item>
 </channel>
 </rss>

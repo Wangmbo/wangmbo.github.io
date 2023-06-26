@@ -4,20 +4,20 @@
         <link>https://www.wangmbo.com/categories/</link>
         <description>Categories - Category - Wangmbo blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wm-wave@163.com (Wangmbo)</managingEditor>
-            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Sun, 07 Aug 2022 16:54:27 &#43;0800</lastBuildDate><atom:link href="https://www.wangmbo.com/categories/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Sat, 14 Jan 2023 09:51:32 &#43;0800</lastBuildDate><atom:link href="https://www.wangmbo.com/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>note</title>
+    <link>https://www.wangmbo.com/categories/note/</link>
+    <pubDate>Sat, 14 Jan 2023 09:51:32 &#43;0800</pubDate>
+    <author>Wangmbo</author>
+    <guid>https://www.wangmbo.com/categories/note/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>analyse</title>
     <link>https://www.wangmbo.com/categories/analyse/</link>
     <pubDate>Sun, 07 Aug 2022 16:54:27 &#43;0800</pubDate>
     <author>Wangmbo</author>
     <guid>https://www.wangmbo.com/categories/analyse/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>note</title>
-    <link>https://www.wangmbo.com/categories/note/</link>
-    <pubDate>Tue, 13 Aug 2019 11:51:32 &#43;0800</pubDate>
-    <author>Wangmbo</author>
-    <guid>https://www.wangmbo.com/categories/note/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

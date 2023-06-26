@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>pinia - Tag - Wangmbo blog</title>
+        <link>https://www.wangmbo.com/tags/pinia/</link>
+        <description>pinia - Tag - Wangmbo blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wm-wave@163.com (Wangmbo)</managingEditor>
+            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Sat, 14 Jan 2023 09:51:32 &#43;0800</lastBuildDate><atom:link href="https://www.wangmbo.com/tags/pinia/" rel="self" type="application/rss+xml" /><item>
+    <title>pinia使用手册</title>
+    <link>https://www.wangmbo.com/posts/pinia-use/</link>
+    <pubDate>Sat, 14 Jan 2023 09:51:32 &#43;0800</pubDate>
+    <author>Wangmbo</author>
+    <guid>https://www.wangmbo.com/posts/pinia-use/</guid>
+    <description><![CDATA[前言 Store 是什么 Store是一个保存状态和业务逻辑的实体，它并不与你的组件树绑定，它承载着全局的状态
+什么时候使用Store 一个Store应该包含可以在整个应用中访问的数据，例如显示在导航栏中的用户信息，以及需要通过页面保存的数据，例如一个非常复杂的多步骤表单。应该避免在Store中引入那些本可以在组件中保存的本地数据，例如，一个元素在页面中的可见性。
+使用 创建pinia实例(根store)，然后将其挂载到app上 // mian.ts import { createPinia } from &#39;pinia&#39; const pinia = createPinia() app.use(pinia) 声明store // useTodoList.ts import { defineStore } from &#39;pinia&#39; export const useTodoList = defineStore(&#39;todoList&#39;, { // state // getters // actions }) 使用store import { useTodoList } from &#39;@/store/useTodoList&#39; const todoListStore = useTodoList() 修改state actions中修改 直接修改 $patch $reset 订阅state $subscribe store.$subscribe((mutation, state) =&gt; { }) watch 监听 插件的使用 import { createPinia } from &#39;pinia&#39; // 创建的每个 store 中都会添加一个名为 `secret` 的属性。 // 在安装此插件后，插件可以保存在不同的文件中 function SecretPiniaPlugin() { return { secret: &#39;the cake is a lie&#39; } } const pinia = createPinia() // 将该插件交给 Pinia pinia.]]></description>
+</item>
+</channel>
+</rss>

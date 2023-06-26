@@ -2,14 +2,18 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://www.wangmbo.com/categories/</loc><lastmod>2023-01-14T09:51:32&#43;08:00</lastmod></url><url>
+            <loc>https://www.wangmbo.com/categories/</loc><lastmod>2023-01-14T09:51:32&#43;08:00</lastmod></url><url>
+            <loc>https://www.wangmbo.com/categories/note/</loc><lastmod>2023-01-14T09:51:32&#43;08:00</lastmod></url><url>
+            <loc>https://www.wangmbo.com/tags/pinia/</loc><lastmod>2023-01-14T09:51:32&#43;08:00</lastmod></url><url>
+            <loc>https://www.wangmbo.com/posts/pinia-use/</loc><lastmod>2023-01-14T09:51:32&#43;08:00</lastmod></url><url>
+            <loc>https://www.wangmbo.com/posts/</loc><lastmod>2023-01-14T09:51:32&#43;08:00</lastmod></url><url>
+            <loc>https://www.wangmbo.com/tags/</loc><lastmod>2023-01-14T09:51:32&#43;08:00</lastmod></url><url>
+            <loc>https://www.wangmbo.com/</loc><lastmod>2023-01-14T09:51:32&#43;08:00</lastmod></url><url>
+            <loc>https://www.wangmbo.com/tags/webpack/</loc><lastmod>2022-08-25T09:51:32&#43;08:00</lastmod></url><url>
+            <loc>https://www.wangmbo.com/posts/webpack/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAwebpack5%E6%A8%A1%E5%9D%97%E8%81%94%E9%82%A6/</loc><lastmod>2022-08-25T09:51:32&#43;08:00</lastmod></url><url>
             <loc>https://www.wangmbo.com/posts/20220807-analyse/</loc><lastmod>2022-08-07T16:54:27&#43;08:00</lastmod></url><url>
             <loc>https://www.wangmbo.com/categories/analyse/</loc><lastmod>2022-08-07T16:54:27&#43;08:00</lastmod></url><url>
-            <loc>https://www.wangmbo.com/categories/</loc><lastmod>2022-08-07T16:54:27&#43;08:00</lastmod></url><url>
-            <loc>https://www.wangmbo.com/categories/</loc><lastmod>2022-08-07T16:54:27&#43;08:00</lastmod></url><url>
-            <loc>https://www.wangmbo.com/posts/</loc><lastmod>2022-08-07T16:54:27&#43;08:00</lastmod></url><url>
-            <loc>https://www.wangmbo.com/</loc><lastmod>2022-08-07T16:54:27&#43;08:00</lastmod></url><url>
-            <loc>https://www.wangmbo.com/categories/note/</loc><lastmod>2019-08-13T11:51:32&#43;08:00</lastmod></url><url>
-            <loc>https://www.wangmbo.com/tags/</loc><lastmod>2019-08-13T11:51:32&#43;08:00</lastmod></url><url>
             <loc>https://www.wangmbo.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90/</loc><lastmod>2019-08-13T11:51:32&#43;08:00</lastmod></url><url>
             <loc>https://www.wangmbo.com/posts/computer-composition/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E7%BB%93%E6%9E%84/</loc><lastmod>2019-08-13T11:51:32&#43;08:00</lastmod></url><url>
             <loc>https://www.wangmbo.com/categories/analyse/</loc></url><url>

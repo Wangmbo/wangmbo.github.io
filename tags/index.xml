@@ -4,7 +4,23 @@
         <link>https://www.wangmbo.com/tags/</link>
         <description>Tags - Tag - Wangmbo blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wm-wave@163.com (Wangmbo)</managingEditor>
-            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Tue, 13 Aug 2019 11:51:32 &#43;0800</lastBuildDate><atom:link href="https://www.wangmbo.com/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Sat, 14 Jan 2023 09:51:32 &#43;0800</lastBuildDate><atom:link href="https://www.wangmbo.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>pinia</title>
+    <link>https://www.wangmbo.com/tags/pinia/</link>
+    <pubDate>Sat, 14 Jan 2023 09:51:32 &#43;0800</pubDate>
+    <author>Wangmbo</author>
+    <guid>https://www.wangmbo.com/tags/pinia/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>webpack</title>
+    <link>https://www.wangmbo.com/tags/webpack/</link>
+    <pubDate>Thu, 25 Aug 2022 09:51:32 &#43;0800</pubDate>
+    <author>Wangmbo</author>
+    <guid>https://www.wangmbo.com/tags/webpack/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>计算机组成</title>
     <link>https://www.wangmbo.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90/</link>
     <pubDate>Tue, 13 Aug 2019 11:51:32 &#43;0800</pubDate>

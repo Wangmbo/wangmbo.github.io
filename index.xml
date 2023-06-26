@@ -4,9 +4,39 @@
         <link>https://www.wangmbo.com/</link>
         <description>This is my cool site</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wm-wave@163.com (Wangmbo)</managingEditor>
-            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Sun, 07 Aug 2022 16:54:27 &#43;0800</lastBuildDate>
+            <webMaster>wm-wave@163.com (Wangmbo)</webMaster><lastBuildDate>Sat, 14 Jan 2023 09:51:32 &#43;0800</lastBuildDate>
             <atom:link href="https://www.wangmbo.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>pinia使用手册</title>
+    <link>https://www.wangmbo.com/posts/pinia-use/</link>
+    <pubDate>Sat, 14 Jan 2023 09:51:32 &#43;0800</pubDate>
+    <author>Wangmbo</author>
+    <guid>https://www.wangmbo.com/posts/pinia-use/</guid>
+    <description><![CDATA[前言 Store 是什么 Store是一个保存状态和业务逻辑的实体，它并不与你的组件树绑定，它承载着全局的状态
+什么时候使用Store 一个Store应该包含可以在整个应用中访问的数据，例如显示在导航栏中的用户信息，以及需要通过页面保存的数据，例如一个非常复杂的多步骤表单。应该避免在Store中引入那些本可以在组件中保存的本地数据，例如，一个元素在页面中的可见性。
+使用 创建pinia实例(根store)，然后将其挂载到app上 // mian.ts import { createPinia } from &#39;pinia&#39; const pinia = createPinia() app.use(pinia) 声明store // useTodoList.ts import { defineStore } from &#39;pinia&#39; export const useTodoList = defineStore(&#39;todoList&#39;, { // state // getters // actions }) 使用store import { useTodoList } from &#39;@/store/useTodoList&#39; const todoListStore = useTodoList() 修改state actions中修改 直接修改 $patch $reset 订阅state $subscribe store.$subscribe((mutation, state) =&gt; { }) watch 监听 插件的使用 import { createPinia } from &#39;pinia&#39; // 创建的每个 store 中都会添加一个名为 `secret` 的属性。 // 在安装此插件后，插件可以保存在不同的文件中 function SecretPiniaPlugin() { return { secret: &#39;the cake is a lie&#39; } } const pinia = createPinia() // 将该插件交给 Pinia pinia.]]></description>
+</item>
+<item>
+    <title>深入浅出Webpack5模块联邦</title>
+    <link>https://www.wangmbo.com/posts/webpack/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAwebpack5%E6%A8%A1%E5%9D%97%E8%81%94%E9%82%A6/</link>
+    <pubDate>Thu, 25 Aug 2022 09:51:32 &#43;0800</pubDate>
+    <author>Wangmbo</author>
+    <guid>https://www.wangmbo.com/posts/webpack/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAwebpack5%E6%A8%A1%E5%9D%97%E8%81%94%E9%82%A6/</guid>
+    <description><![CDATA[前言 很早之前就听说了webpack5的模块联邦，对它提供的应用之间模块级共享能力还挺感兴趣的，但一直还没有使用起来，本文会以5W1H的模式来围绕模块联邦做一个学习分享。
+Who 本文的目标读者是对模块联邦感兴趣但未使用过/不了解其原理的开发同学
+What 是webpack5的新特性，允许多个webpack编译产物之间共享模块、依赖、甚至应用 提供了一种轻量级的、在运行时，通过全局变量组合，在不同模块之前进行数据的获取 提供了一种解决应用集的官方方案。每个构建都充当一个容器，也可将其他构建作为容器。通过这种方式，每个构建都能够通过从对应容器中加载模块来访问其他容器暴露出来的模块。 Where 每个页面单独构建 单页应用的每个页面都是在单独的构建中从容器暴露出来。主体应用程序也是独立构建，会将所有页面作为远程模块引用。通过这种方式，可以单独部署每个页面。在更新路由或者添加新路由时部署主体应用程序。主体应用程序将常用库定义为共享模块，以避免在页面构建中重复出现。
+将组件库作为容器 许多应用程序共享一个通用的组件库，可以将其构建成暴露所有组件的容器。每个应用程序使用来自组件库容器的组件。
+When &amp; Why 公共模块复用 我们有A, B, C三个项目，针对这三个的一些公共模块，在进行组件/方法复用的时候，B项目抽离出公共的模块打包成npm包，通过发包的方式进行组件/方法复用。这样是没有问题的，但是当面临这个npm包的更新时，尤其是修复了bug时，我们不得不通知依赖模块进行升级，这样一个一个项目升级的模式肯定是低效率的。
+解决方案：
+实现原理 How 可参考的简单demo 官方demo
+核心配置字段 name name表示当前应用的别名，当作为remote时被host引用时需要在路径前加上这个前缀。
+filename filename表示remote应用提供给host应用使用时的入口文件，比如上面component应用设置的是remoteEntry，那么在最终的构建产物中就会出现一个remoteEntry的入口文件供main应用加载。
+exposes exposes表示remote应用有哪些属性、方法和组件需要暴露给host应用使用，他是一个对象，其中key表示在被host使用的时候的相对路径，value则是当前应用暴露出的属性的相对路径。
+remote remote 表示当前host应用需要消费的remote应用的以及他的地址，他是一个对象，key为对应remote应用的name值，这里要注意这个name不是remote应用中配置的name，而是自己为该remote应用自定义的值，value这是remote应用的资源地址。
+shared 当前应用无论是作为host还是remote都可以共享依赖，而共享的这些依赖需要通过shared去指定
+参考文档 一文通透讲解webpack5 module federation 最详细的Module Federation的实现原理讲解 ]]></description>
+</item>
+<item>
     <title>20220807-复盘H1</title>
     <link>https://www.wangmbo.com/posts/20220807-analyse/</link>
     <pubDate>Sun, 07 Aug 2022 16:54:27 &#43;0800</pubDate>
