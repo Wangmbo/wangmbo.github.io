@@ -15,6 +15,25 @@
 使用 创建pinia实例(根store)，然后将其挂载到app上 // mian.ts import { createPinia } from &#39;pinia&#39; const pinia = createPinia() app.use(pinia) 声明store // useTodoList.ts import { defineStore } from &#39;pinia&#39; export const useTodoList = defineStore(&#39;todoList&#39;, { // state // getters // actions }) 使用store import { useTodoList } from &#39;@/store/useTodoList&#39; const todoListStore = useTodoList() 修改state actions中修改 直接修改 $patch $reset 订阅state $subscribe store.$subscribe((mutation, state) =&gt; { }) watch 监听 插件的使用 import { createPinia } from &#39;pinia&#39; // 创建的每个 store 中都会添加一个名为 `secret` 的属性。 // 在安装此插件后，插件可以保存在不同的文件中 function SecretPiniaPlugin() { return { secret: &#39;the cake is a lie&#39; } } const pinia = createPinia() // 将该插件交给 Pinia pinia.]]></description>
 </item>
 <item>
+    <title>移动端适配</title>
+    <link>https://www.wangmbo.com/posts/mobile/fit/</link>
+    <pubDate>Sun, 25 Sep 2022 09:51:32 &#43;0800</pubDate>
+    <author>Wangmbo</author>
+    <guid>https://www.wangmbo.com/posts/mobile/fit/</guid>
+    <description><![CDATA[基本概念 在进入到移动端适配的方案之前先了解几个基本概念
+像素 像素就是构成图像的最小单位，指显示屏上的最小单位，图像由相随组成，单位面积内的像素越多，效果就越好。像素大小不是绝对的，是根据设备的分辨率决定的。
+分辨率 屏幕分辨率，屏幕横向和纵向的像素点数，单位为px 相同大小的屏幕，分辨率越低，单位像素尺寸越大，分辨率越高，单位像素尺寸越小
+图像分辨率：指图片含有的像素数，表示图片分别在垂直和水平上所具有的像素点数 同一尺寸的图片，分辨率越高，图片越清晰
+设备物理像素 设备的真实分辨率，屏幕有多少个像素点，就是多少分辨率
+设备独立像素 一种单位来告诉不同分辨率的手机，他们在界面上显示元素的大小是多少，即设备几个物理像素当成一个像素使用
+设备像素比 DPR 物理像素比设备独立像素的比值 css中的像素只是一个抽象的单位，在不同的设备或不同的环境中，css中的1px所代表的设备物理像素是不同的，1px并不是绝对的，它只代表了当前设备像素的最小单位
+在PC端 1px等于一个设备的物理像素，但是移动设备的屏幕像素密度越来越高，iphone6上一个css像素是等于两个物理像素，通过dpr，我们可以知道该设备上一个css像素代表多少个物理像素。
+css像素 css像素，当页面缩放比例为100%时，一个css像素等于一个设备独立像素，但是css像素是很容易被改变的，当用户对浏览器进行了放大，css像素会被放大，这时一个css像素会跨越更多的物理像素。
+理想视口 布局视口的一个理想尺寸，只有当布局视口的尺寸等于设备屏幕的尺寸时，才是理想视口。
+PC window.screen.width 移动端 &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;&#34;&gt; 该meta标签的作用是让当前布局视口的宽度等于设备的宽度，同时不允许用户手势缩放。视觉视口等于理想视口的时候，1个css像素就等于1个设备独立像素。
+css度量单位 em 相对单位，表示当前元素的字体大小 rem 相对单位，表示根元素(html元素)的字体大小 % 相对父元素的百分比 vw 相对单位，相对视口宽度的百分比 vh 相对单位，相对视高度的百分比 vmin 视口宽度和高度较小值的百分比 vmax 视口宽度和高度较大值的百分比 适配方案 rem适配 flexble 适配方案 媒体查询 + rem vw + rem 布局 ]]></description>
+</item>
+<item>
     <title>深入浅出Webpack5模块联邦</title>
     <link>https://www.wangmbo.com/posts/webpack/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAwebpack5%E6%A8%A1%E5%9D%97%E8%81%94%E9%82%A6/</link>
     <pubDate>Thu, 25 Aug 2022 09:51:32 &#43;0800</pubDate>
